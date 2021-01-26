@@ -1,6 +1,7 @@
 <template>
   <div id="mainpage">
     <navbar />
+    <!-- <sticky /> -->
     <div class="splash-section">
       <img
         class="image-full"
@@ -295,12 +296,14 @@
 
 <script>
 import navbar from "../../components/navbar";
+// import stickyIcons from "../../components/stickyIcons";
 
 export default {
   name: "mainpage",
 
   components: {
     navbar: navbar,
+    // stickyIcons: sticky,
   },
 };
 </script>
